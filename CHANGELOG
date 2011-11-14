@@ -1,0 +1,28 @@
+== 0.3.1 (21/08/11)
+
+* updated to use new HTTPS endpoints (sdball)
+
+== 0.3.0 (05/06/11)
+
+* simple SQL interface API
+
+== 0.2.4 (03/06/11)
+
+* bugfixes
+
+== 0.2.3 (03/06/11)
+
+* all tests pass
+* readme simplified
+* count now returns 0 for empty tables
+* truncate table, or delete all rows (sikachu)
+* fix up the single update row method (sikachu)
+* if value is nil, insert empty string (wynst)
+* fixes to exception handling and tests (troy)
+
+== 0.2.2
+
+* 1.9.2 compatibility through gdata_19 gem
+* examples updated for 1.9.2
+* datetime columns now include time
+
